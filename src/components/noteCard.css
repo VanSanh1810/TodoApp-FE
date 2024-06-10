@@ -1,0 +1,27 @@
+.card-item {
+    padding: 0px 15px;
+    margin-bottom: 14px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.card-item:hover {
+    box-shadow: 6px 9px 109px -28px rgba(133, 133, 133, 0.75);
+    cursor: pointer;
+}
+
+.card-item h3 {
+    color: black;
+    padding-right: 10px;
+}
+
+.card-item p {
+    flex-grow: 1;
+    color: black;
+    padding-right: 10px;
+}
