@@ -1,6 +1,7 @@
 import React, { FC } from 'react';
 import { Button, Col, Row } from 'react-bootstrap';
 import './landingPage.css';
+import { Link } from 'react-router-dom';
 
 const LandingPage: FC = () => {
     return (
@@ -9,9 +10,14 @@ const LandingPage: FC = () => {
                 <i style={{ fontSize: '2em' }} className="material-icons">
                     checklist
                 </i>
-                <Button style={{ backgroundColor: 'white', color: 'black', fontWeight: 700 }} className="rounded-4 px-4 border-0">
-                    Login
-                </Button>
+                <Link to="/login">
+                    <Button
+                        style={{ backgroundColor: 'white', color: 'black', fontWeight: 700 }}
+                        className="rounded-4 px-4 border-0"
+                    >
+                        Login
+                    </Button>
+                </Link>
             </div>
             <div className="landing-body">
                 <Col>
