@@ -1,0 +1,70 @@
+.landing-header {
+    background-color: #2490d8;
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+}
+
+.landing-body {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.landing-body {
+    width: 100vw;
+    padding: 30px;
+}
+
+.landing-banner {
+    background-color: #2490d8;
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+.landing-banner h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.landing-banner p {
+    color: rgb(47, 47, 47);
+    margin-bottom: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.landing-banner button {
+    border-radius: 20px;
+    width: 25%;
+    margin-right: 10px;
+    padding: 10px;
+    border: none;
+    background: none;
+}
+
+.landing-banner button:first-child {
+    background-color: black;
+}
+
+.landing-banner-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.landing-feature {
+    margin-top: 10px;
+}
+
+.landing-feature-fragment {
+    background-color: #2490d8;
+    border-radius: 10px;
+    width: 100%;
+    padding: 1em;
+    
